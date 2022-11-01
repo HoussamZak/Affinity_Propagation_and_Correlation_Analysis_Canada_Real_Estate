@@ -1,0 +1,50 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"New condominium apartment price indexes, by census metropolitan area","18100273",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810027301",1;2;4;5;6,"CURRENT - a cube available to the public and that is current","Quarterly","2017-01-01","2022-04-01","1",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",3,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Nine census metropolitan area composite","","1","","",5,
+"1","Halifax, Nova Scotia","[205]","2","","",,
+"1","Montréal, Quebec","[462]","3","","",,
+"1","Québec, Quebec","[421]","4","","",,
+"1","Ottawa-Gatineau, Ontario part, Ontario/Quebec","[35505]","5","","",,
+"1","Toronto, Ontario","[535]","6","","",,
+"1","Calgary, Alberta","[825]","7","","",,
+"1","Edmonton, Alberta","[835]","8","","",,
+"1","Vancouver, British Columbia","[933]","9","","",,
+"1","Victoria, British Columbia","[935]","10","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"5236","Experimental New Condominium Apartment Price Index"
+
+"Subject Code","Subject Name"
+"18","Prices and price indexes"
+
+"Note ID",Note
+1,"The index measures changes in the prices of new condominium apartment units. With each release, data for the previous quarter may have been revised."
+2,"The index base period, for which the new condominium apartment price index equals 100, is 2017."
+3,"All geographic regions are based on the 2016 Census boundaries."
+4,"New condominium apartment price indexes denoted with the data quality indicator "E", should be used with caution."
+5,"Based on data from the Canada Mortgage and Housing Corporation, these nine census metropolitan areas accounted for 88.6% of absorbed units in new condominium apartment buildings in 2021."
+6,"This table partially replaces table 18100169 which has been archived."
+
+"Correction ID","Correction Date","Correction Note"

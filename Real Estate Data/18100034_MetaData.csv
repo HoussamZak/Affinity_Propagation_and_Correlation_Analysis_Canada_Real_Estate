@@ -1,0 +1,160 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Raw materials price index, monthly, inactive",18100034,330-0008,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810003401",1;2;3;4;5,"ARCHIVED -  a cube publicly available but no longer being updated",Monthly,1981-01-01,2020-09-01,2
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,"North American Product Classification System (NAPCS)",,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,,
+2,"Total, Raw materials price indexes (RMPI)",,1,,,,
+2,"Crude energy products",[M51],2,1,,,
+2,"Crude oil and crude bitumen",[141],3,2,,,
+2,"Conventional crude oil",[14111],4,3,,,
+2,"Natural gas",[142],7,2,,,
+2,"Other energy products",[144],8,2,,,
+2,Coal,[14411],9,8,,,
+2,"Solid fuel products, not elsewhere classified",[14412],10,8,,,
+2,"Fuel wood",[14413],11,8,,,
+2,"Steam and heated or cooled air or water",[14414],12,8,,,
+2,Steam,[144141],13,12,,,
+2,"Total Raw materials price indexes (RMPI), excluding crude energy products",,15,1,,,
+2,"Crop products",[M11],16,1,,,
+2,Wheat,[112],17,16,,,
+2,"Canola (including rapeseed)",[113],18,16,,,
+2,"Fresh fruit, nuts and vegetables",[114],19,16,,,
+2,"Fresh fruit and nuts",[11411],20,19,,,
+2,"Fresh berries",[114111],21,20,,,
+2,"Fresh tropical and semitropical fruit (except citrus fruit)",[114113],23,20,,,
+2,"Other fresh fruit",[114114],24,20,,,
+2,Nuts,[114115],25,20,,,
+2,"Fresh potatoes",[11421],26,19,,,
+2,"Fresh vegetables (except potatoes)",[11422],27,19,,,
+2,"Other crop products",[115],28,16,,,
+2,"Grains (except wheat)",[11511],29,28,,,
+2,"Grain corn",[115111],30,29,,,
+2,Oats,[115113],32,29,,,
+2,Barley,[115114],33,29,,,
+2,"Other grains, not elsewhere classified",[115115],34,29,,,
+2,"Oilseeds (except canola)",[11512],35,28,,,
+2,Soybeans,[115121],36,35,,,
+2,"Oilseeds (except canola and soybeans)",[115122],37,35,,,
+2,"Other miscellaneous crop products",[11513],38,28,,,
+2,"Unstemmed leaf tobacco",[115131],39,38,,,
+2,"Sugar cane and sugar beets",[115132],40,38,,,
+2,"Raw tea",[115133],41,38,,,
+2,"Cocoa beans",[115134],42,38,,,
+2,"Green coffee beans",[115135],43,38,,,
+2,"Maple syrup and sugar",[115136],44,38,,,
+2,"Raw cotton",[115137],45,38,,,
+2,"Other miscellaneous crop products, not elsewhere classified",[115139],47,38,,,
+2,"Nursery and floriculture products",[11514],48,28,,,
+2,"Nursery and floriculture products (except seeds and Christmas trees)",[115143],51,48,,,
+2,"Animals and animal products",[M21],52,1,,,
+2,"Live animals",[111],53,52,,,
+2,"Cattle and calves",[11111],54,53,,,
+2,Hogs,[11112],55,53,,,
+2,"Live poultry",[11113],56,53,,,
+2,Chickens,[111131],57,56,,,
+2,Turkeys,[111132],58,56,,,
+2,"Baby chicks and poults",[111133],59,56,,,
+2,"Other live animals",[11114],61,53,,,
+2,"Sheep, lambs and goats",[111141],62,61,,,
+2,"Other miscellaneous live animals",[111144],65,61,,,
+2,"Other animal products",[116],66,52,,,
+2,"Eggs in shell",[11611],67,66,,,
+2,"Unprocessed fluid milk",[11612],68,66,,,
+2,"Raw furskins, and animal products not elsewhere classified",[11613],69,66,,,
+2,"Raw furskins",[116131],70,69,,,
+2,"Raw wool and animal hair",[116132],71,69,,,
+2,"Natural honey",[116133],72,69,,,
+2,"Fish, shellfish and other fishery products",[121],73,52,,,
+2,"Fish, shellfish and other fishery products",[12111],74,73,,,
+2,"Live fish and shellfish",[121111],75,74,,,
+2,"Fish (except live fish)",[121112],76,74,,,
+2,"Crustaceans and other shellfish (except live shellfish)",[121113],77,74,,,
+2,"Seaweed, Irish moss and other algae",[121114],78,74,,,
+2,"Non-metallic minerals",[M31],79,1,,,
+2,Potash,[161],80,79,,,
+2,"Stone, sand, gravel, clay, and refractory minerals",[162],81,79,,,
+2,Stone,[16211],82,81,,,
+2,"Rough dimension stone",[162111],83,82,,,
+2,"Crushed stone",[162112],84,82,,,
+2,"Sand, gravel, clay, and refractory minerals",[16212],85,81,,,
+2,"Construction sand and gravel",[162121],86,85,,,
+2,"Industrial sand",[162122],87,85,,,
+2,"Clay and refractory minerals",[162123],88,85,,,
+2,"Diamonds and other non-metallic minerals (except cut gemstones)",[163],89,79,,,
+2,"Non-metallic minerals (except diamonds)",[16312],91,89,,,
+2,Gypsum,[163121],92,91,,,
+2,Sulphur,[163122],93,91,,,
+2,"Phosphate rock",[163123],94,91,,,
+2,"Rock salt",[163124],95,91,,,
+2,"Other non-metallic minerals",[163125],96,91,,,
+2,"Logs, pulpwood, natural rubber and other forestry products",[M41],97,1,,,
+2,"Logs, pulpwood and other forestry products",[131],98,97,,,
+2,"Logs and bolts",[13111],99,98,,,
+2,"Hardwood logs and bolts (except fuel wood and pulpwood)",[131111],100,99,,,
+2,"Softwood logs and bolts (except fuel wood and pulpwood)",[131112],101,99,,,
+2,Pulpwood,[13112],102,98,,,
+2,"Hardwood pulpwood",[131121],103,102,,,
+2,"Softwood pulpwood",[131122],104,102,,,
+2,"Rough untreated poles, posts and piling",[13113],105,98,,,
+2,"Natural rubber",[282M],106,97,,,
+2,"Metal ores, concentrates and scrap",[M61],107,1,,,
+2,"Iron ores and concentrates",[151],108,107,,,
+2,"Copper ores and concentrates",[152],109,107,,,
+2,"Nickel ores and concentrates",[153],110,107,,,
+2,"Radioactive ores and concentrates",[154],111,107,,,
+2,"Other metal ores and concentrates",[155],112,107,,,
+2,"Precious metal ores and concentrates",[15511],113,112,,,
+2,"Gold ores, concentrates and mill bullion",[155111],114,113,,,
+2,"Silver ores, concentrates and mill bullion",[155112],115,113,,,
+2,"Bauxite and aluminum oxide",[15521],117,112,,,
+2,"Bauxite and natural alumina",[155211],118,117,,,
+2,"Refined aluminum oxide",[155212],119,117,,,
+2,"Lead and zinc ores and concentrates",[15522],120,112,,,
+2,"Lead ores and concentrates",[155221],121,120,,,
+2,"Zinc ores and concentrates",[155222],122,120,,,
+2,"Other metal ores and concentrates, not elsewhere classified",[15523],123,112,,,
+2,"Ferroalloy ores",[155231],124,123,,,
+2,"Other miscellaneous metal ores and concentrates, not elsewhere classified",[155232],125,123,,,
+2,"Waste and scrap of metal",[156],126,107,,,
+2,"Waste and scrap of iron and steel",[15611],127,126,,,
+2,"Waste and scrap of non-ferrous metals",[15612],128,126,,,
+2,"Waste and scrap of aluminum and aluminum alloys",[156121],129,128,,,
+2,"Waste and scrap of other non-ferrous metals",[156122],130,128,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+2318,"Industrial Product Price Index"
+
+"Subject Code","Subject Name"
+18,"Prices and price indexes"
+
+"Note ID",Note
+1,"This monthly CANSIM table replaces CANSIM table 330-0007 which has been archived. This CANSIM table contains monthly data starting from January 1981."
+2,"The North American Product Classification System (NAPCS 2012) was adopted in the 2010-based Industrial Product Price Index (IPPI) series. By using a new classification system, some historical series can no longer be calculated. Where possible, the historical series are published and consist of all data for the months prior to January 2010. They were obtained by linking together indexes from the 2010-based IPPI series and the corresponding 2002-based IPPI series. Also, these historical series were obtained by rebasing the 2002-based IPPI series using, as the rebasing factor, the ratio of 100 to the annual average index of 2010."
+3,"On July 17, 2018, additional series for the Industrial Product Price Index and the Raw Materials Price Index are now available with a data quality indicator of “E”. Users are currently advised to use caution with these indexes. A project is underway to develop data quality indicators which will be updated on this table once complete."
+4,"On July 17, 2018, additional historical data are available for select series upon request."
+5,"On November 30, 2020, this table was archived and replaced by table 18100268."
+
+"Correction ID","Correction Date","Correction Note"
+
+
