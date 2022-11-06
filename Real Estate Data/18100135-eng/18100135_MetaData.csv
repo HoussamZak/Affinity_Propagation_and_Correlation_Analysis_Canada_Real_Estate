@@ -1,0 +1,65 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Building construction price indexes, by type of building","18100135","327-0058","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810013501",1,"CURRENT - a cube available to the public and that is current","Quarterly","1981-01-01","2022-07-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",2,""
+"2","Type of building",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","St. John's, Newfoundland and Labrador","[001]","2","1","",,
+"1","Halifax, Nova Scotia","[205]","3","1","",,
+"1","Moncton, New Brunswick","[305]","4","1","",,
+"1","Montréal, Quebec","[462]","5","1","",,
+"1","Ottawa-Gatineau, Ontario part, Ontario/Quebec","[35505]","6","1","",,
+"1","Toronto, Ontario","[535]","7","1","",,
+"1","Winnipeg, Manitoba","[602]","8","1","",,
+"1","Saskatoon, Saskatchewan","[725]","9","1","",,
+"1","Calgary, Alberta","[825]","10","1","",,
+"1","Edmonton, Alberta","[835]","11","1","",,
+"1","Vancouver, British Columbia","[933]","12","1","",,
+"1","Eleven census metropolitan area composite","","1","","",,
+"2","Apartment buildings","","3","1","",,
+"2","Single-detached house","","6","1","",,
+"2","Townhouse","","7","1","",,
+"2","High-rise apartment building (five or more storeys)","","4","3","",,
+"2","Low-rise apartment building (fewer than five storeys)","","5","3","",,
+"2","Commercial buildings","[62212]","9","8","",,
+"2","Industrial buildings","[62211]","13","8","",,
+"2","Institutional buildings","[62213]","16","8","",,
+"2","Office building","","10","9","",,
+"2","Warehouse","","11","9","",,
+"2","Shopping centre","","12","9","",,
+"2","Factory","","14","13","",,
+"2","Bus depot with maintenance and repair facilities","","15","13","",,
+"2","School","","17","16","",,
+"2","Residential buildings","[621]","1","","",,
+"2","Non-residential buildings","[622]","8","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2317","Building Construction Price Index"
+
+"Subject Code","Subject Name"
+"18","Prices and price indexes"
+
+"Note ID",Note
+1,"This table replaces tables 18-10-0049-01 and 18-10-0050-01 which were archived with the release of first quarter 2018 data. Data for the new index series are available starting in 2017Q1. Data for periods prior to the first quarter of 2017 were obtained by linking the new building construction price indexes with comparable index series published in tables 18-10-0049-01 and 18-10-0050-01."
+2,"All geographic regions are based on the 2016 Census boundaries."
+
+"Correction ID","Correction Date","Correction Note"
